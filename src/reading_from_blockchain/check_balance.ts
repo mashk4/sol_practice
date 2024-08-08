@@ -11,7 +11,7 @@ console.log('Connection established');
 
 let publicKeyString = process.env['PUBLIC_KEY'];
 if (publicKeyString === undefined) {
-  console.log('Add PUBLIC_STRING to .env!');
+  console.log('Add PUBLIC_KEY to .env!');
   process.exit(1);
 }
 
